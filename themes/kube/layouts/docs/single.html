@@ -5,16 +5,15 @@
     <p class="hero-lead">
       {{ .Params.bref | safeHTML }}.
     </p>
-    <p>lknfsldfnslfsldf</p>
 
   </div>
   <div id="kube-component" class="content">
-    <p>lknfsldfnslfsldf</p>
-
     {{ partial "toc" .}} {{ .Content}}
     <!-- Inject script tag in this template  -->
     {{if .Params.script}} {{ $script := (delimit (slice "scripts" .Params.script) "/")}} {{ partial (string $script) .}} {{end
     }}
   </div>
+  <p>lknfsldfnslfsldf</p>
+
 </div>
 {{ end }}
