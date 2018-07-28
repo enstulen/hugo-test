@@ -13,3 +13,4 @@ fields:
   label: Toggle
 pages:
 - content/frontpage.md
+- content/ok.md
