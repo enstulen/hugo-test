@@ -11,3 +11,5 @@ fields:
 - type: boolean
   name: toggle
   label: Toggle
+pages:
+- content/frontpage.md
