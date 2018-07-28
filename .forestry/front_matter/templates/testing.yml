@@ -12,5 +12,6 @@ fields:
   name: toggle
   label: Toggle
 pages:
+- content/xcvxcv.md
 - content/frontpage.md
 - content/ok.md
