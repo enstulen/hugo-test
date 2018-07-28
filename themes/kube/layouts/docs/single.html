@@ -9,6 +9,8 @@
 
   </div>
   <div id="kube-component" class="content">
+    <p>lknfsldfnslfsldf</p>
+
     {{ partial "toc" .}} {{ .Content}}
     <!-- Inject script tag in this template  -->
     {{if .Params.script}} {{ $script := (delimit (slice "scripts" .Params.script) "/")}} {{ partial (string $script) .}} {{end
