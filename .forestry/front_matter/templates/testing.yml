@@ -1,0 +1,15 @@
+---
+label: Testing
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: Test
+  label: Test
+  name: test
+  description: Okidok
+- type: boolean
+  name: toggle
+  label: Toggle
+pages:
+- content/frontpage.md
