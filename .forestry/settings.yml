@@ -9,7 +9,7 @@ sections:
   label: Pages
   create: all
   match: "*"
-- path: content/blog
+- path: content/blogs
   label: Blog
   create: all
 upload_dir: static/uploads
